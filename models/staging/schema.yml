@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: ny-taxi-453114
+    schema: ny_taxi_kestra
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
+         # freshness:
+           # error_after: {count: 6, period: hour}
