@@ -49,5 +49,5 @@ vars:
 seeds:
   nytaxi_dbt:
     taxi_zone_lookup:
-      column_types:
+      +column_types:
         locationid: numeric
